@@ -9,7 +9,7 @@
 body {
     font-family: 'Trebuchet MS';
     line-height: 1.6;
-    background: url('/images/BackgroundFull.png') no-repeat center center fixed;
+    background: url('images/BackgroundFull.png') no-repeat center center fixed;
     background-size: cover;
     color: #333;
 }
