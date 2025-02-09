@@ -7,7 +7,7 @@
 
 /* Basic layout styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS';
     line-height: 1.6;
     background: url('/images/BackgroundFull.png') no-repeat center center fixed;
     background-size: cover;
@@ -20,34 +20,66 @@ header {
     padding: 10px 0;
 }
 
-nav ul {
+/* Navbar container */
+nav {
+    display: flex;
+    justify-content: space-between; /* This ensures the left and right sections are spaced out */
+    align-items: center; /* Vertically center the items in the nav */
+    padding: 10px 20px;
+    background-color: #392641;
+}
+
+/* Left side of the navbar (logo and studio name) */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px; /* Adjust the size of the logo */
+    margin-right: 10px; /* Add some space between logo and studio name */
+}
+
+.studio-name {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Right side of the navbar (navigation links) */
+.nav-right ul {
     list-style: none;
     display: flex;
-    justify-content: center;
 }
 
-nav ul li {
-    margin: 0 20px;
+.nav-right ul li {
+    margin-left: 20px; /* Add spacing between navigation items */
 }
 
-nav ul li a {
+.nav-right ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
+.nav-right ul li a:hover {
+    color: #ddd;
+}
+
+
 .hero {
     text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 50px 20px;
+    /* background-color: #333; */
+    color: white; /*text color*/
+    font-size: 30px;
+    padding: 50px 20px; 
 }
 
 section {
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 1000px;
-    background: white;
+    background: #dfd1e5;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
