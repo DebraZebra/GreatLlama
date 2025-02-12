@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background: #392641;
+    background: #b087c8;
     color: white;
 }
 
@@ -70,7 +70,7 @@ nav {
     text-align: center;
     color: white; /*text color*/
     font-size: 30px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
     padding: 50px 20px; 
 }
 
@@ -113,7 +113,7 @@ section {
     padding: 20px 20px;
     margin: 20px auto;
     max-width: 1000px;
-    background: #dfd1e5;
+    background: #b087c8;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
